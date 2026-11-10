@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAVANNAH ROASTERS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="Savannah Roasters logo" />
+        <h1>SAVANNAH ROASTERS</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="contact.html" class="active">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-title">
+        <h2>Contact & Order</h2>
+        <p>Order Your Fresh Coffee Today - We Reply Within 24 Hours</p>
+      </section>
+
+      <section class="contact">
+        <div class="contact-info">
+          <h2>Get In Touch</h2>
+          <p><strong>Location:</strong> Nairobi, Kenya</p>
+          <p><strong>Email:</strong> info@savannahroasters.co.ke</p>
+          <p><strong>Phone / WhatsApp:</strong> +254 796943289</p>
+          <p><strong>Hours:</strong> Mon - Sat, 8am - 6pm</p>
+          <p>
+            <strong>Delivery:</strong> Nairobi 1-2 days, Countrywide 2-4 days
+          </p>
+        </div>
+
+        <div class="contact-form">
+          <h2>Order / Send Message</h2>
+          <form action="#" method="post">
+            <label for="full-name">Full Name</label>
+            <input
+              id="full-name"
+              type="text"
+              placeholder="Enter your full name"
+              required
+            />
+
+            <label for="phone">Phone Number</label>
+            <input
+              id="phone"
+              type="tel"
+              placeholder="e.g. 0712 345 678"
+              required
+            />
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter your email" />
+
+            <label for="coffee">Choose Coffee</label>
+            <select id="coffee" required>
+              <option value="">-- Select Coffee --</option>
+              <option>Savannah Gold - Light Roast</option>
+              <option>Rift Valley Blend - Medium Roast</option>
+              <option>Sunset Dark Roast - Dark Roast</option>
+            </select>
+
+            <label for="size">Size / Quantity</label>
+            <select id="size" required>
+              <option value="">-- Select Size --</option>
+              <option>250g - 1 Bag</option>
+              <option>250g - 2 Bags</option>
+              <option>500g - 1 Bag</option>
+              <option>500g - 2 Bags</option>
+            </select>
+
+            <label for="location">Delivery Location</label>
+            <input
+              id="location"
+              type="text"
+              placeholder="E.g. Westlands, Nairobi"
+              required
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              rows="4"
+              placeholder="Any extra message..."
+            ></textarea>
+
+            <button type="submit" class="btn">Send Order</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Savannah Roasters</h3>
+          <p>From the Highlands of Kenya to Your Cup.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>Email: info@savannahroasters.co.ke</p>
+          <p>Location: Nairobi, Kenya</p>
+          <p>Phone: +254 796943289</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Savannah Roasters. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
